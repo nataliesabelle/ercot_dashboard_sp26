@@ -11,7 +11,7 @@ dashboards:
   generation_load:
     title: "Generation & New Load"
     description: "Rafael's Streamlit analysis of ERCOT generation capacity and new electronic loads (data centers, AI, crypto mining)."
-    url: "https://ercot-generation-load-dashboard.streamlit.app"
+    url: "https://ercotdashboardsp26-7trsnav9twb43kwhw9ff32.streamlit.app/"
     owner: "Rafael"
     height: 900
 
