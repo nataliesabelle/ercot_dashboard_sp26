@@ -1,0 +1,48 @@
+# ============================================================================
+# ERCOT Dashboard Hub Configuration
+# ============================================================================
+#
+# This file configures all dashboards aggregated into the hub application.
+# Update these URLs when dashboards are deployed to new locations.
+#
+# ============================================================================
+
+dashboards:
+  generation_load:
+    title: "Generation & New Load"
+    description: "Rafael's Streamlit analysis of ERCOT generation capacity and new electronic loads (data centers, AI, crypto mining)."
+    url: "https://ercot-generation-load-dashboard.streamlit.app"
+    owner: "Rafael"
+    height: 900
+
+  ercot_stats:
+    title: "ERCOT Statistics & Analysis"
+    description: "Abby's Streamlit dashboard for ERCOT grid statistics, market analysis, and system operations."
+    url: "https://ercot-stats-dashboard.streamlit.app"
+    owner: "Abby"
+    height: 900
+
+  gis_map:
+    title: "GIS Map (Interactive)"
+    description: "qgis2web interactive GIS map showing ERCOT infrastructure, generation facilities, and transmission corridors. Hosted on GitHub Pages."
+    url: "https://nataliesabelle.github.io/ercot_dashboard_sp26/map_dashboard/index.html"
+    owner: "GIS Team"
+    height: 950
+
+  data_centers:
+    title: "Data Centers & Infrastructure (ArcGIS)"
+    description: "ArcGIS Online map featuring data center locations, capacity, and interconnection status in ERCOT. URL read from datacenter_dashboard/arcgisonlinehttps.txt"
+    url_config_file: "datacenter_dashboard/arcgisonlinehttps.txt"
+    owner: "ERCOT / ArcGIS Team"
+    height: 1000
+
+# ============================================================================
+# Optional: Add future dashboards here
+# ============================================================================
+# Example format:
+#   new_dashboard:
+#     title: "Dashboard Name"
+#     description: "Brief description"
+#     url: "https://example.streamlit.app"
+#     owner: "Owner Name"
+#     height: 900
