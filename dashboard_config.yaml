@@ -17,21 +17,21 @@ dashboards:
 
   ercot_stats:
     title: "ERCOT Statistics & Analysis"
-    description: "Abby's Streamlit dashboard for ERCOT grid statistics, market analysis, and system operations."
+    description: "Abby's data analysis visuals rendered locally from the ercotstats_dashboard notebook assets and clean generation dataset."
     url: "https://ercot-stats-dashboard.streamlit.app"
     owner: "Abby"
     height: 900
 
   gis_map:
-    title: "GIS Map (Interactive)"
-    description: "qgis2web interactive GIS map showing ERCOT infrastructure, generation facilities, and transmission corridors. Hosted on GitHub Pages."
+    title: "Population Dynamics Map"
+    description: "Population and infrastructure dynamics map embedded from an external app using the same iframe-based tab structure as the other dashboards."
     url: "https://nataliesabelle.github.io/ercot_dashboard_sp26/map_dashboard/index.html"
     owner: "GIS Team"
     height: 950
 
   data_centers:
     title: "Data Centers & Infrastructure (ArcGIS)"
-    description: "ArcGIS Online map featuring data center locations, capacity, and interconnection status in ERCOT. URL read from datacenter_dashboard/arcgisonlinehttps.txt"
+    description: "External infrastructure map featuring data center locations, capacity, and interconnection status in ERCOT. URL read from datacenter_dashboard/arcgisonlinehttps.txt."
     url_config_file: "datacenter_dashboard/arcgisonlinehttps.txt"
     owner: "ERCOT / ArcGIS Team"
     height: 1000
