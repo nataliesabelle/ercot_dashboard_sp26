@@ -8,18 +8,18 @@
 # ============================================================================
 
 dashboards:
-  generation_load:
-    title: "Generation & New Load"
-    description: "Rafael's Streamlit analysis of ERCOT generation capacity and new electronic loads (data centers, AI, crypto mining)."
-    url: "https://ercotdashboardsp26-7trsnav9twb43kwhw9ff32.streamlit.app/"
-    owner: "Rafael"
+  new_dashboard:
+    title: "Generation & New Load v2"
+    description: "Generation v2.0 with enhanced visuals and interactivity."
+    url: "https://tempteamtexas-ueenfmgefr5wxxwkfxfywk.streamlit.app/"
+    owner: "Rafael Thome"
     height: 900
 
   ercot_stats:
     title: "ERCOT Statistics & Analysis"
     description: "Abby's data analysis visuals rendered locally from the ercotstats_dashboard notebook assets and clean generation dataset."
     url: "https://ercot-stats-dashboard.streamlit.app"
-    owner: "Abby"
+    owner: "Abigail O'Neil"
     height: 900
 
   gis_map:
@@ -33,16 +33,6 @@ dashboards:
     title: "Data Centers & Infrastructure (ArcGIS)"
     description: "External infrastructure map featuring data center locations, capacity, and interconnection status in ERCOT. URL read from datacenter_dashboard/arcgisonlinehttps.txt."
     url_config_file: "datacenter_dashboard/arcgisonlinehttps.txt"
-    owner: "ERCOT / ArcGIS Team"
+    owner: "Natalie Randazzo and Junco"
     height: 1000
 
-# ============================================================================
-# Optional: Add future dashboards here
-# ============================================================================
-# Example format:
-#   new_dashboard:
-#     title: "Dashboard Name"
-#     description: "Brief description"
-#     url: "https://example.streamlit.app"
-#     owner: "Owner Name"
-#     height: 900
